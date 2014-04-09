@@ -1,0 +1,36 @@
+body{
+	width:100%;
+	font-family:Arial;
+	text-align: center;
+	font-family: 'Source Code Pro', sans-serif;
+}
+
+h1::selected{
+	background-color: black;
+	color:blue;
+}
+
+.container{
+	padding-top:50px;
+	color:white;
+	position:absolute;
+	margin: auto; 
+	top: 0;left: 0;right: 0;bottom: 0;
+	height:500px;
+
+}
+
+.container h1{
+	font-size:72px;
+	letter-spacing:4px;
+}
+
+
+.container p{
+	font-size:14px;
+	letter-spacing:2px;
+}
+
+.container.initial h1{
+	color:black;
+}

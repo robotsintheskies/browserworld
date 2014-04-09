@@ -1,0 +1,62 @@
+html{
+	width:100%;
+	height:100%;
+}
+
+body{
+	width:100%;
+	text-align: center;
+	font-family: 'Source Code Pro', sans-serif;
+	background-color: black;
+	overflow:hidden;
+	color:white;
+
+}
+
+h1::selected{
+	background-color: black;
+	color:blue;
+}
+
+.wordContainer{
+	position:absolute;
+	margin:auto;
+	top:0;left:0;bottom:0;right:0;
+	padding-top:50px;
+	color:white;
+	height:500px;
+}
+
+.introContainer{
+	height:500px;
+	position:absolute;
+	margin:auto;
+	top: 0;left: 0;bottom: 0;right: 0;
+}
+
+
+.container h1{
+	font-size:72px;
+	letter-spacing:4px;
+}
+
+
+
+
+
+#readMore{
+	position:absolute;
+}
+
+#textInput{
+	width:500px;
+	padding:50px;
+	margin-left:15px;
+}
+
+
+.introContainer button{
+	margin-left:15px; 
+	height:110px;
+	font-size:20px;
+}

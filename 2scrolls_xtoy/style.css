@@ -1,0 +1,19 @@
+html{
+	height: 500%;
+	width:500%;
+}
+
+body{
+	height:100%;
+	background-color:black;
+	font-family: 'Source Code Pro', sans-serif;
+	color:white;
+}
+
+body::-webkit-scrollbar { 
+/*	display: none; 
+*/}
+
+p{
+	font-size:14px;
+}

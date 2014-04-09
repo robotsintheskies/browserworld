@@ -1,0 +1,53 @@
+html{
+	width:100%;
+	height:100%;
+}
+
+body{
+	width:100%;
+	text-align: center;
+	font-family: 'Source Code Pro', sans-serif;
+	background-color: blue;
+	background-image:url('background.jpg');
+	background-size:cover;
+	overflow:hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.block{
+	background-color: blue;
+	float: left;
+	color:rgba(255,255,255,0.25);
+	border:1px dotted white;
+}
+
+.block_container{
+	width:101%;
+	height:101%
+	background-color: black;
+	text-align: center;
+	z-index:50;
+}
+
+.block p{
+	font-size:48px;
+	margin:auto;
+}
+
+.transparent{
+	background-color:rgba(0,0,0,0);
+	border:1px solid rgba(0,0,0,0);
+	color:rgba(0,0,0,0);
+}
+
+.text h1{
+	color:blue;
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.5); 
+	font-size:100px;
+}
+
